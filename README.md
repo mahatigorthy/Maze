@@ -1,1 +1,3 @@
 # Maze
+
+This program displays a randomly generated Maze. The maze is imagined as a rectangular grid of "Junctures" (intersections). There is a wall surrounding the entire grid. Adjacent junctures may or may not have a "wall" between them. There is also a weight (positive integer) between any two junctures. This weight could be viewed as the "cost" of traveling from a juncture to an adjacent juncture. The MazeGUI class allows the user to create and display mazes.  It relies on an underlying MazeGraph, which stores the maze as a Graph, and can perform various algorithms (DFS, BFS, and Dijsktra.)
